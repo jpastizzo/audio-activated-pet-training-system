@@ -12,13 +12,15 @@ An embedded system using an **Arduino Mega** to monitor environmental sound leve
 ---
 
 ## Hardware Components
-| Component                  | Description                                      |
-|----------------------------|--------------------------------------------------|
-| **Arduino Mega**           | Microcontroller for processing and control.      |
-| **LM296**                  | Voltage regulator for stable power supply.       |
-| **NEMA 17 (17HS08-1004S)** | Bipolar stepper motor for mechanical actuation.  |
-| **A4988 Motor Driver**     | Stepper motor driver for precise control.        |
-| **5V Relay Module**        | Enables switching of external components.        |
+| Component                  | Description |
+|----------------------------|-------------|
+| **Arduino Mega**           | Microcontroller for processing and control. |
+| **LM296**                  | Voltage regulator for stable power supply. |
+| **NEMA 17 (17HS08-1004S)** | Bipolar stepper motor for mechanical actuation. |
+| **A4988 Motor Driver**     | Stepper motor driver for precise control. |
+| **5V Relay Module**        | Enables switching of external components. |
+| **Grove Base Shield V2.0** | Expansion shield for easy connection of Grove modules. |
+| **Grove Sound Sensor**     | Detects environmental sound levels to trigger actuation. |
 
 ### Additional Components:
 - **3D-Printed Structure & Mechanisms** – CAD files included in repository.
@@ -52,7 +54,8 @@ To install required libraries:
 ### **Connections**
 | Component         | Arduino Mega Pin |
 |------------------|----------------|
-| **Sound Sensor** | `A0` (Analog Input) |
+| **Grove Base Shield** | Mounted on Arduino Mega |
+| **Grove Sound Sensor** | Connected to **A0** on Grove Shield |
 | **A4988 Driver** | `DIR` → `D8`, `STEP` → `D9`, `ENABLE` → `D10` |
 | **Relay Module** | `D7` (Digital Output) |
 | **Motor Power** | 12V External Supply |
@@ -116,3 +119,4 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ## Acknowledgments
 Shoutout to my dog Alfie
+
