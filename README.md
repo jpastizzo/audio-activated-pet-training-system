@@ -102,7 +102,7 @@ void loop() {
 4. Fine-tune timing and sound sensitivity as needed.
 
 ---
-
+<!--
 ## Troubleshooting
 | Issue                         | Solution                                              |
 |-------------------------------|-------------------------------------------------------|
@@ -110,7 +110,7 @@ void loop() {
 | **Too Many False Triggers**   | Increase the **DECIBEL_THRESHOLD** value in the code. |
 | **Relay Not Switching**       | Ensure proper wiring and check **D7** output in code. |
 
----
+--- -->
 
 ## License
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
