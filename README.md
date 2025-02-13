@@ -61,7 +61,7 @@ To install required libraries:
 | **Motor Power** | 12V External Supply |
 
 ### **Circuit Diagram**
-*(Coming Soon!)* <!--*(Or use Fritzing to create a wiring diagram.)*-->
+*(Coming Soon)* <!--*(Or use Fritzing to create a wiring diagram.)*-->
 
 ---
 <!--
